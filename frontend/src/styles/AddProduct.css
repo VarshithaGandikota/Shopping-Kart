@@ -1,0 +1,21 @@
+.AddProduct{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+.AddProduct form{
+    padding: 10px;
+    outline: 2px solid black;
+    display: grid;
+    grid-template-columns: 200px 300px;
+}
+.AddProduct input,label{
+    margin: 10px;
+}
+.AddProduct input{
+    border: none;
+    outline: none;
+    border-bottom: 3px solid magenta;
+    
+}
